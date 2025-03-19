@@ -7,5 +7,8 @@
         <param name="use_visualization" value="True" />
     </node>
 
+    <node pkg="relaxed_ik_ros1" type="franka_3dv_converter.py" name="franka_3dv_converter" output="screen" >
+    </node>
+
     <node pkg="relaxed_ik_ros1" type="rviz_viewer.py" name="rviz_viewer" output="screen" />
 </launch>
